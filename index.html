@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi-portafolio</title>
+    <link rel="shortcut icon" href="/Images/robot.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <header class="flex">
+
+        <nav>
+            <figure>
+                <svg id="#icono-menu" onclick="hiddenMenu()" width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H21" stroke="#242635" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 6H21" stroke="#242635" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 18H21" stroke="#242635" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </figure>
+            <ul id="menu" class="hidden">
+                <li> <a href="#home"> Home</a>            </li>
+                <li> <a href="#aboutme"> Acerca de mi</a> </li>
+                <li> <a href="#services"> Servicios</a>   </li>
+                <li> <a href="#skills"> Habilidades</a>   </li>
+                <li> <a href="#portfolio"> Portafolio</a> </li>
+                <li> <a href="#contact"> Contacto</a>     </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="home" class="flex home">
+
+        <figure class="img-mobile"> <img  src="/Images/photo mobile.png" alt=""> </figure>
+        <figure class="img-desktop"> <img  src="/Images/photo desktop.png" alt=""></figure>
+
+        <main class="flex home-info">
+
+            <h3> Soy </h3>
+            <h1> <span class="tidel name">Luis</span> <span>Garcia</span> </h1>
+            <p> Web Developer Full Stack</p>
+            <p> <span class="tidel">3 años</span> <span>experiencia</span></p>
+            <article class="flex icons">
+                <figure> <a href="https://cr.linkedin.com/" target="_blank"> <img src="/Iconos/linkedin.svg" alt=""> </a> </figure>
+                <figure> <a href="https://www.instagram.com/accounts/login/" target="_blank"> <img src="/Iconos/instagram.svg" alt=""> </a> </figure>
+                <figure> <a href="https://twitter.com/i/flow/login" target="_blank"> <img src="/Iconos/twitter.svg" alt=""> </a> </figure>
+            </article>
+
+        </main>
+
+        <article class="flex logos">
+            <figure> <a href="https://www.google.com/?hl=es" target="_blank"> <img src="/Iconos/google.svg" alt=""> </a> </figure>
+            <figure> <a href="https://www.amazon.com/-/es/" target="_blank"> <img src="/Iconos/amazon.svg" alt=""> </a> </figure>
+            <figure> <a href="https://open.spotify.com/" target="_blank"> <img src="/Iconos/spotify.svg" alt=""> </a> </figure>
+        </article> 
+
+    </section>
+
+    <section id="aboutme" class="flex aboutme">
+        <h2 class="tidel">Acerca de mi</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem et nobis distinctio aliquid beatae assumenda autem vel? Odio laborum hic libero illo aliquid, sint deleniti. Distinctio iusto ex accusantium. A porro perferendis nobis accusamus iste accusantium repudiandae explicabo ducimus et quia. Voluptates provident corporis dolorum iure et, odit enim optio.</p>
+    </section>
+
+    <section id="services" class="flex services">
+        <h2 class="tidel"> Servicios </h2>
+        <main class="flex">
+            <article>
+                <figure> <img src="/Iconos/pencil.svg" alt=""> </figure>
+                <h3> UX/UI Design</h3>
+                <p> Desde diseño hasta implementacion del desarrollo</p>
+            </article>
+            <article>
+                <figure> <img src="/Iconos/speaker.svg" alt=""> </figure>
+                <h3> UX/UI Design</h3>
+                <p> Desde diseño hasta implementacion del desarrollo</p>
+            </article>
+            <article>
+                <figure> <img src="/Iconos/search.svg" alt=""> </figure>
+                <h3> UX/UI Design</h3>
+                <p> Desde diseño hasta implementacion del desarrollo</p>
+            </article>
+        </main>
+    </section>
+
+    <section id="skills" class="flex skills">
+
+        <h2 class="tidel">Mis habilidades</h2>
+        <main>
+            <article>
+                <p> <span>Marketing</span> <span class="tidel">95%</span></p>
+                <div class="container-percent one">
+                    <div></div>
+                </div>
+            </article>
+
+            <article>
+                <p> <span>UI Design</span> <span class="tidel">90%</span></p>
+                <div class="container-percent two">
+                    <div></div>
+                </div>
+            </article>
+
+            <article >
+                <p> <span>UX Research</span> <span class="tidel">97%</span></p>
+                <div class="container-percent tree">
+                    <div></div>
+                </div>
+            </article>
+        </main>
+
+    </section>  
+
+    <section id="portfolio" class="flex portfolio">
+
+        <h2 class="tidel">Mi portafolio</h2>
+
+        <main class="flex">
+
+            <figure> <img src="/Porfolio/ejemplo1.jpg" alt=""></figure>
+            <figure> <img src="/Porfolio/ejemplo2.jpg" alt=""></figure>
+            <figure> <img src="/Porfolio/ejemplo3.jpg" alt=""></figure>
+            <figure> <img src="/Porfolio/ejemplo5.jpg" alt=""></figure>
+
+        </main>
+
+    </section>
+
+    <footer id="contact" class="flex contact">
+        <h2 class="tidel">Contacto</h2>
+
+        <main class="flex">
+
+            <article>
+                <figure> <img src="/Iconos/phone.svg" alt=""> </figure>
+                <h3> Numero telefono </h3>
+                <p> <span class="white">(____</span>+506-60192493 <span class="white">____)</span> </p>
+            </article>
+
+            <article>
+                <figure> <img src="/Iconos/mail.svg" alt=""> </figure>  
+                <h3> E-mail</h3>
+                <p> m3ro_1986@outlook.com </p>
+            </article>
+
+        </main>
+
+        <p>Hecho con ❤️ Academlo</p>
+
+    </footer>
+    
+    <script src="/Scripts/main.js"></script>
+
+</body>
+
+</html>
